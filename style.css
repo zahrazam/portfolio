@@ -528,7 +528,7 @@ body {
 .experience_section_title h3 {
     font-family: "vazir";
     font-size: 1.5rem;
-    margin-top: -3rem;
+    margin-top: 0rem;
 }
 
 .experince_section_wrapper {
@@ -638,4 +638,133 @@ footer img {
     bottom: 10px;
     left: 20px;
     max-width: 200px;
+}
+
+
+/* رسپانسیو سازی */
+/* ===================================== */
+/* ===== ریسپانسیو برای موبایل و تبلت ===== */
+/* ===================================== */
+
+@media (max-width: 800px) {
+
+    /* padding کلی برای فاصله از لبه‌ها در همه‌ی بخش‌ها */
+    .main_container {
+        padding: 0 20px;
+    }
+
+    /* هدر */
+    .navbar {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .nav_links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    /* بخش Hero */
+    .hero {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .hero_card h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero_img {
+        width: 100%;
+    }
+
+    /* بخش Introduction */
+    .introduction {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .right_div {
+        align-items: center;
+    }
+
+    .intro_text {
+        font-size: 1rem;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    /* عنوان‌های بزرگ بخش‌ها */
+    .project_section_title,
+    .project_section_title_left {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    /* بخش مهارت‌های نرم‌افزاری */
+    .software_skill_section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sticker_part {
+        max-width: 180px;
+    }
+
+    /* بخش Skills */
+    .skill_card {
+        padding: 1rem;
+    }
+
+    .skill_card h2 {
+        font-size: 1.3rem;
+    }
+
+    /* بخش زبان‌ها */
+    .content_sticker_container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* بخش تجربه‌ها */
+    .experince_section_wrapper {
+        flex-direction: column;
+        padding: 2rem 1.5rem;
+        text-align: center;
+    }
+
+    .right_section {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* فوتر */
+    .up_part_footer {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    footer img {
+        position: static;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero_card h1 {
+        font-size: 2rem;
+    }
+
+    .project_section_title,
+    .project_section_title_left {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        padding: 14px 16px;
+    }
 }

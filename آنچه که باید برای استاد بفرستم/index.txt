@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Zamiri | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- هدر -->
+    <header class="site_header">
+        <nav class="navbar">
+            <span class="logo">Zahra Zamiri</span>
+            <ul class="nav_links">
+                <li><a href="#hero">خانه</a></li>
+                <li><a href="#introduction">درباره من</a></li>
+                <li><a href="#projects_section">پروژه‌ها</a></li>
+                <li><a href="#skills_section">مهارت‌ها</a></li>
+                <li><a href="#experince_section">تجربه‌ها</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main_container">
+
+        <!-- بخش صفحه اصلی -->
+        <section class="hero" id="hero">
+            <div class="hero_card">
+                <h1>Zahra<br>Zamiri</h1>
+                <span>AI Engineer | ML</span>
+                <a href="#">About Me</a>
+            </div>
+
+            <!-- عکس سمت راست -->
+            <div class="hero_img">
+                <img src="./img/pic (19).png" alt="pic of me">
+            </div>
+        </section>
+
+        <!-- بخش معرفی خود -->
+        <section class="introduction" id="introduction">
+
+            <div class="right_div">
+                <h1 class="intro_title">
+                    Introduction
+                </h1>
+                <p class="intro_text">
+                    دانشجوی خلاق و مسئولیت پذیر ترم آخر مهندسی کامپیوتر با تمرکز بر یادگیری و بینایی ماشین. <br>
+                    دارای روحیه کار تیمی، توانایی حل مسئله و مدیریت زمان؛ <br>
+                    مشتاق یادگیری مداوم و توسعه راهکار های هوشمند در پروژه های عملی. <br>
+                    محل سکونت: مشهد<br>
+                    تحصیلات: کارشناسی مهندسی کامپیوتر <br>
+                    دانشگاه بین‌المللی امام رضا‌(ع)<br>
+                    وضعیت فعلی: دانشجو (ترم آخر) و فریلنسر در حوزه‌ی یادگیری ماشین<br>
+                </p>
+            </div>
+
+            <div class="left_div">
+                <img src="img/vec (32)-jukebox-bg-removed.png" alt="pic of me">
+            </div>
+
+        </section>
+
+        <!-- بخش گواهینامه ها -->
+        <section class="certification_section">
+            <h1 class="project_section_title">Certificates</h1>
+
+            <div class="certificates">
+                <div class="certificate_card">
+                    <img src="img/ML_certification.png" alt="pic of certification">
+                    <h4>مدرک یادگیری ماشین و شبکه های عصبی</h4>
+                </div>
+
+                <div class="certificate_card">
+                    <img src="img/4photoshop-icon-picture-آیکون-عکس.jpg" alt="pic of certification">
+                    <h4>مدرک پایتون پیشرفته از دانشگاه فردوسی مشهد</h4>
+                </div>
+
+                <div class="certificate_card">
+                    <img src="img/4photoshop-icon-picture-آیکون-عکس.jpg" alt="pic of certification">
+                    <h4>مدرک تحلیل داده با زبان R از فنی حرفه ای</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش نمونه پروژه ها -->
+        <section class="projects_section" id="projects_section">
+            <h1 class="project_section_title_left">Projects</h1>
+            <div class="sample_projects">
+                <div class="project_card">
+                    <img src="img/project_img_anomaly_detecting.png" alt="pic of project">
+
+                    <h3 class="project_card_title">پروژه تشخیص آنومالی از داده های سری زمانی</h3>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>|</span>
+                        <span>plotly</span>
+                        <span>|</span>
+                        <span>streamlit</span>
+                        <span>|</span>
+                        <span>Matplotlib</span>
+                        <span>|</span>
+                        <span>scikit-learn (sklearn)</span>
+                        <span>|</span>
+                        <span>NumPy</span>
+                        <span>|</span>
+                        <span>pandas</span>
+                    </div>
+                </div>
+
+                <div class="project_card">
+                    <img src="img/pic of project_2.png" alt="pic of project">
+
+                    <h3 class="project_card_title">پروژه طبقه بندی کننده داده های پزشکی</h3>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>|</span>
+                        <span>plotly</span>
+                        <span>|</span>
+                        <span>streamlit</span>
+                        <span>|</span>
+                        <span>Matplotlib</span>
+                        <span>|</span>
+                        <span>scikit-learn (sklearn)</span>
+                        <span>|</span>
+                        <span>NumPy</span>
+                        <span>|</span>
+                        <span>pandas</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- بخش مهارت های نرم افزاری -->
+        <section class="software_skill_section">
+            <div class="sticker_part">
+                <img src="Stickers/sticker-3(1).png" alt="pic of a sticker">
+            </div>
+
+            <div class="content_part">
+                <h3 class="project_section_title" id="project_section_title_farsi">دانش و مهارت‌های فنی</h3>
+                <ul class="list_of_abilities">
+                    <li>مدیریت وضعیت برنامه (Session State در Streamlit)</li>
+                    <li>طراحی رابط کاربری تعاملی و فرم‌های ورودی</li>
+                    <li>اصول یادگیری نظارت‌شده (Supervised Learning) و طبقه‌بندی (Classification)</li>
+                    <li>پیش‌پردازش داده (Data Preprocessing) و مهندسی ویژگی ساده</li>
+                    <li>مفاهیم یادگیری ماشین<ul>
+                            <li>تشخیص ناهنجاری (Anomaly Detection)</li>
+                            <li>مفهوم Contamination</li>
+                            <li>یادگیری بدون‌ناظر (Unsupervised Learning)</li>
+                        </ul>
+                    </li>
+                    <li>محیط توسعه
+                        <ul>
+                            <li>VS Code</li>
+                            <li>اجرای برنامه از طریق ترمینال (streamlit run)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- بخش مهارت ها -->
+        <section class="skills_section" id="skills_section">
+            <h1 class="project_section_title">Skills</h1>
+
+            <div class="skill_card_container">
+                <div class="skill_card">
+                    <h2>طراحی و رابط کاربری</h2>
+                    <h3>UI/UX</h3>
+
+                    <ul class="tools_list">
+                        <li>Canva</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+
+                <div class="skill_card">
+                    <h2>تدوین و مالتی مدیا</h2>
+                    <h3>Edit & multimedia</h3>
+
+                    <ul class="tools_list">
+                        <li>CyberLink PowerDirector</li>
+                    </ul>
+                </div>
+
+                <div class="skill_card">
+                    <h2>توسعه وب و ابزار های عمومی</h2>
+                    <h3>web development &amp; general tools</h3>
+
+                    <ul class="tools_list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>GIT</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش زبان ها -->
+        <section class="languages_section">
+            <h1 class="project_section_title_left">Languages</h1>
+            <div class="content_sticker_container">
+                <div class="content_part">
+                    <div class="language_cards_container">
+                        <div class="language_card">
+                            <h5>فارسی</h5>
+                            <p>سطح تسلط: <span>زبان مادری | Native</span></p>
+                        </div>
+
+                        <div class="language_card">
+                            <h5>انگیسی</h5>
+                            <p>سطح تسلط: <span>متوسط | Intermediate/B1</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticker_part">
+                    <img src="Stickers/sticker-6(1).png" alt="pic of sticker">
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش تجربه های حرفه ای -->
+        <section class="experince_section" id="experince_section">
+            <div class="experience_section_title">
+                <h1>Work experience</h1>
+                <h3>تجارب حرفه ای</h3>
+            </div>
+
+            <div class="experince_section_wrapper">
+                <div class="left_section">
+                    <h2>ﺗﻮﺳﻌﻪ دﻫﻨﺪه ﻫﻮش ﻣﺼﻨﻮﻋﯽ و ﺑﯿﻨﺎﯾﯽ ﻣﺎﺷﯿﻦ</h2>
+                    <h3>ﺷﺮﮐﺖ داﻧﺶ ﺑﻨﯿﺎن ﮐﯿﺎن ﺗﺮاز | ۱۴۰۴ - اﮐﻨﻮن</h3>
+                    <ul>
+                        <li>ﻃﺮاﺣﯽ و ﭘﯿﺎده ﺳﺎزی ﻣﺪل ﻫﺎی ﯾﺎدﮔﯿﺮی ﻋﻤﯿﻖ ﺑﺮای
+                            ﺗﺤﻠﯿﻞ و ﭘﺎﯾﺶ ﺧﻮدﮐﺎر رﻓﺘﺎر ﻃﯿﻮر.</li>
+                        <li>ﺗﻮﺳﻌﻪ ﯾﮏ اﻟﮕﻮرﯾﺘﻢ دﻗﯿﻖ ﻣﺒﺘﻨﯽ ﺑﺮ ﺑﯿﻨﺎﯾﯽ ﻣﺎﺷﯿﻦ
+                            ﺑﺮای ﺷﻤﺎرش و ردﯾﺎﺑﯽ اﻓﺮاد در ﻣﺤﯿﻂ ﻫﺎی ﭘﺮﺗﺮدد.</li>
+                        <li>ﻣﺴﺌﻮﻟﯿﺖ ﭘﯿﺶ ﭘﺮدازش داده ﻫﺎی ﺗﺼﻮﯾﺮی، اﻓﺰاﯾﺶ
+                            داده Data Augmentation و ﺑﻬﯿﻨﻪ ﺳﺎزی ﻣﺪل ﻫﺎ
+                            ﺑﺮای دﺳﺘﯿﺎﺑﯽ ﺑﻪ ﻋﻤﻠﮑﺮد ﺑﻬﺘﺮ.</li>
+                    </ul>
+                </div>
+                <div class="right_section">
+                    <img src="img/vec (16).png" alt="pic of me">
+                </div>
+            </div>
+        </section>
+        <!-- جدا کننده -->
+        <div class="divider_sticker">
+            <img src="./Stickers/sticker-7(1).png" alt="divider sticker">
+        </div>
+        <!-- بخش اطلاعات تماس و فوتر -->
+
+        <footer>
+            <div class="up_part_footer">
+                <div class="left_part_footer">
+                    <p>آماده‌ی همکاری در پروژه‌های مرتبط با هوش مصنوعی و یادگیری ماشین.</p>
+                </div>
+
+                <div class="right_part_footer">
+                    <div class="contact-info">
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:zahrazam.79@gmail.com">
+                                zahrazam.79@gmail.com
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>Phone:</strong>
+                            <a href="tel:+989043546636">
+                                +989043546636
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>LinkedIn:</strong>
+                            <a href="https://www.linkedin.com/in/zahra-zamiri-440661304" target="_blank"
+                                rel="noopener noreferrer">
+                                linkedin.com/in/zahra-zamiri-440661304
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="down_part_footer">
+                © ۱۴۰۵ زهرا ضمیری. تمامی حقوق محفوظ است.
+            </div>
+
+            <!-- <img src="Stickers/sticker-4(1).png" alt=""> -->
+
+        </footer>
+
+        <!-- انتهای کانتینر اصلی -->
+    </div>
+</body>
+
+</html>
